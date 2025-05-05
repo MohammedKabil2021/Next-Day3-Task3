@@ -60,8 +60,8 @@ function Login() {
                 </form>
 
                 <form action={signInWithGoogle} className="mt-6">
-                    <button class="w-full flex items-center justify-center gap-2 bg-white text-gray-700 border border-gray-300 rounded-xl px-4 py-2 shadow-sm hover:shadow-md transition hover:bg-purple-700 text-black hover:text-white font-semibold py-2 px-4 rounded-xl transition duration-300">
-                        <svg class="w-5 h-5" viewBox="0 0 533.5 544.3" xmlns="http://www.w3.org/2000/svg">
+                    <button className="w-full flex items-center justify-center gap-2 bg-white text-gray-700 border border-gray-300 rounded-xl px-4 py-2 shadow-sm hover:shadow-md transition hover:bg-purple-700 text-black hover:text-white font-semibold py-2 px-4 rounded-xl transition duration-300">
+                        <svg className="w-5 h-5" viewBox="0 0 533.5 544.3" xmlns="http://www.w3.org/2000/svg">
                             <path fill="#4285F4" d="M533.5 278.4c0-17.4-1.6-34.1-4.6-50.2H272v95h147.4c-6.4 34.7-25.5 64.1-54.4 83.7v69.6h87.9c51.4-47.3 80.6-117 80.6-198.1z" />
                             <path fill="#34A853" d="M272 544.3c73.8 0 135.6-24.5 180.8-66.5l-87.9-69.6c-24.4 16.3-55.5 25.8-92.9 25.8-71 0-131.1-47.9-152.5-112.1H30.8v70.4C75.3 475 167.7 544.3 272 544.3z" />
                             <path fill="#FBBC05" d="M119.5 321.9c-10.7-32.1-10.7-66.6 0-98.7V152.8H30.8c-41.4 82.6-41.4 180.1 0 262.7l88.7-70.4z" />
